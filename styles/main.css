@@ -4,13 +4,35 @@
 }
 .header {
   width: 100vw;
+  display: inline-block;
+  justify-content: center;
+}
+.image {
+  margin: 10px 0;
+  position: relative;
+  left: 30%;
 }
 .menu {
   color: #4a4a4a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 13px;
+}
+.text-1 {
+  position: relative;
+  left: 15%;
+  margin-right: 10px;
+}
+.text-2 {
+  position: relative;
+  rigth: 10%;
+  margin-right: -6px;
 }
 .main {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 
   background-color: #3cdbc0;
   color: #ffffff;
