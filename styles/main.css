@@ -16,12 +16,15 @@
 }
 
 .list {
+  font-size: 16px;
   color: #4a4a4a;
   display: flex;
   justify-content: space-around;
   list-style-type: none;
 }
 .main {
+  font-size: 30px;
+  font-weight: bold;
   position: relative;
   top: 150px;
   background-color: #3cdbc0;
@@ -31,4 +34,30 @@
   justify-content: center;
   align-items: center;
   padding: 100% 0;
+}
+
+/* ---media--- */
+@media all and (min-width: 768px) {
+  .header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    margin-bottom: 20px;
+  }
+  .image {
+    margin: 20px 0 20px 30px;
+    position: relative;
+    left: 0%;
+  }
+
+  .list {
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+  .main {
+    font-size: 40px;
+  }
 }
