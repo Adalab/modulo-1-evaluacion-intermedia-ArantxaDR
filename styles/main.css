@@ -1,0 +1,17 @@
+* {
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+.header {
+  width: 100vw;
+}
+.menu {
+  color: #4a4a4a;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+
+  background-color: #3cdbc0;
+  color: #ffffff;
+}
