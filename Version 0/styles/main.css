@@ -1,12 +1,14 @@
 * {
-  font-family: "Rubik", sans-serif;
-  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
+
 .header {
   width: 100vw;
   display: inline-block;
   justify-content: center;
   position: fixed;
+  top: 0px;
   margin-bottom: 13px;
 }
 .image {
@@ -18,11 +20,16 @@
 .list {
   font-size: 16px;
   color: #4a4a4a;
-  display: flex;
-  justify-content: space-around;
   list-style-type: none;
+  display: inline-block;
+  padding: 10px 10px 13px 10px;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  text-decoration: none;
 }
+
 .main {
+  font-family: Rubik;
   font-size: 30px;
   font-weight: bold;
   position: relative;
@@ -39,23 +46,17 @@
 /* ---media--- */
 @media all and (min-width: 768px) {
   .header {
-    width: 100vw;
     display: flex;
     justify-content: space-between;
-    position: fixed;
     margin-bottom: 20px;
   }
   .image {
     margin: 20px 0 20px 30px;
-    position: relative;
     left: 0%;
   }
 
   .list {
     margin-right: 30px;
-    display: flex;
-    justify-content: space-around;
-    list-style-type: none;
   }
   .blog {
     margin-right: 20px;
